@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <catalog >
-    <book>
+    <book1>
         <author>Some Author</author>
         <title>XML parser Book</title>
         <genre>Computer</genre>
         <price>44.95</price>
         <publish_date>2000-10-01</publish_date>
 
-    </book>
-    <book>
+    </book1>
+    <book2>
         <author>Andrei</author>
         <title>Xml Example</title>
         <genre>Since</genre>
         <price currency="USD" >5.95</price>
         <publish_date>2000-12-16</publish_date>
-    </book>
+    </book2>
 </catalog>
