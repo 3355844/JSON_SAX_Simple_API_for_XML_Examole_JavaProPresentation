@@ -31,9 +31,9 @@ public class Main extends DefaultHandler {
     }
 
     @Override
-    public void characters(char[] chars, int start, int lenght) throws SAXException {
+    public void characters(char[] chars, int start, int length) throws SAXException {
         if (bAuthor){
-            System.out.println("Author value: " + new String(chars, start, lenght));
+            System.out.println("Author value: " + new String(chars, start, length));
             bAuthor = false;
         }
     }
